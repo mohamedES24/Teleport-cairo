@@ -1,0 +1,12 @@
+.projects-wrapper{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        object-fit: cover;
+        width: 50vw;
+        height: 50vh;
+    }
+}

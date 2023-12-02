@@ -1,0 +1,25 @@
+.test{
+    h1{
+        font-size: 4rem;
+        text-transform: uppercase;
+        font-family: 'Bebas Neue';
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        line-height: 5.9rem;
+        .word {
+            transform: translateY(115px);
+            transition: transform .5s;
+        }
+    }
+    
+    p{
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: 'Bebas Neue';
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        line-height: 1.5rem;
+        .line{
+            transform: translateY(125px);
+            transition: transform .5s;
+        }
+    }
+}

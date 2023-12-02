@@ -1,0 +1,172 @@
+@media  (max-device-width: 800px) {
+     .header .navbar ul{
+        display: none;
+     }
+     .navbar{
+      position: fixed;
+     }
+     .overview{
+      margin-bottom: -5%;
+      .swipe-in-text{
+         h1{
+            font-size: 2.5rem;
+         }
+      }
+     }
+     .skill-breaker .breaker-text {
+      font-size: 120px;
+     }
+     .endofstory{
+      padding: 40.5278vw 26.2778vw 0.2639vw;
+     }
+     .bottom-footer{
+      padding-top: 39vh;
+      .email{
+         margin-left: 55px;
+         p{
+            font-size: 20px;
+         }
+      }
+      .copyright{
+         margin-left: 90px;
+         p{
+            font-size: 13px;
+         }
+      }
+     }
+     .footer-socials .l-hsc{
+      padding-right: 15px;
+     }
+     .slide-in .project-content .project-info-title{
+      font-size: 2rem;
+     }
+     .slide-in .project-content .project-info{
+      font-size: 15px;
+      line-height: 1rem;
+     }
+     .slide-in .project-content{
+      padding-top: 50vh;
+      margin: 0 10px;
+     }
+}
+  
+@media  (min-device-width: 800px) {
+    .header .navside{
+        display: none;
+    }
+      .navbar{
+      position: static;
+     }
+     .overview{
+      margin-bottom: 100px;
+      
+     }
+}
+
+    
+@media  (max-device-width: 500px) {
+   .logo {
+      margin-left: 10px;
+      img{
+         width: 50px;
+         height: 70px;
+      }
+   }
+   .footer-socials{
+      display: none;
+   }
+   .hamburger-menu{
+      right: 17%;
+   }
+   .overview{
+      .content{
+         margin-left: 10px;
+      }
+      .arrow-scroll {
+         img{
+            width: 65px;
+            height: 65px;
+         }
+      }
+      margin-bottom: -2%;
+      .swipe-in-text{
+         h1{
+            font-size: 1.5rem;
+         }
+      }
+      .animate-p{
+         .test{
+            p{
+               
+               font-size: 1rem;
+               line-height: 1rem;
+            }
+         }
+      }
+   }
+   .preview{
+      .board{
+         .test{
+            h1{
+               font-size: 10px;
+            }
+         }
+         
+      }
+   }
+   .softwares .preview .board .softwares-icons .s-icons{
+      width: 40px;
+      height: 40px;
+   }
+   .skill-breaker{
+      .breaker-text {
+         font-size: 50px;
+        }
+      .sec-line{
+         font-size: 45px;
+      }   
+   } 
+   .projects-breaker .selected-projects .marquee h3{
+      font-size: 64px;
+   }
+   .slide-in .project-content .project-info-title{
+      font-size: 20px;
+   }
+   .slide-in .project-content .project-info{
+      font-size: 15px;
+      line-height: 0.75rem;
+   }    
+   .projects{
+      .all{
+         font-size: 30px;
+         margin: 100px 0;
+      }
+      .slide-in{
+         width: 50vw;
+         .project-content{
+            margin: 0;
+         }
+      }
+   }
+   .endofstory{
+      padding: 87.5278vw 6.277799999999999vw 2.2638999999999996vw;
+      .footer-socials{
+         display: none;
+      }
+   }
+   .bottom-footer .email{
+      border: none;
+   }
+}
+
+@media (min-height: 800px) {
+   .overview{
+      margin-bottom: 0;
+   }
+}
+@media (max-device-height: 800px) {
+   .overview{
+      margin-bottom: 100px;
+   }
+}
+

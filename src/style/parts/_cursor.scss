@@ -1,0 +1,32 @@
+.hover{
+    cursor: pointer;
+}
+.cursor, .folower{
+    position: fixed;
+    left: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform .1s;
+}
+.cursor{
+    background: #696969;
+    opacity: 0.2;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    z-index: 999;
+}
+.folower{
+    background: var(--blue);
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    z-index: 9999;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    opacity: 0;
+    p{
+        width: 80px;
+    }
+}
