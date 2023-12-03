@@ -1,6 +1,5 @@
 .parcel-cache/*
 dist/*
 node_modules/*
-src/js/models/*
-# src/js/model.js
+
 .cache/*
